@@ -25,8 +25,9 @@
 
 .image-container img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 25px 0 0 25px;
+  object-fit: cover;
 }
 
 .text-container span {
@@ -66,7 +67,8 @@
 }
 
 header {
-    width:70%;
+    max-width: 1200px;
+    width:90%;
     display:flex;
     justify-content: space-between;
     background-color: #fff5f9;
@@ -421,10 +423,10 @@ footer {
 }
 
 .footerimage img{
-    height:auto;
-    width:30%;
-    margin:0;
-    padding-left: 446px;
+    width: 180px;
+    margin:0 auto;
+    padding-left: 0;
+    display:block;
 
     
 }
